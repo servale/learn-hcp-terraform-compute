@@ -14,6 +14,9 @@ terraform {
       source  = "hashicorp/azuread"
       version = "~> 3.6.0"
     }
+    tfe = {
+      version = "~> 0.71.0"
+    }
   }
 }
 # Configure the Microsoft Azure Provider
